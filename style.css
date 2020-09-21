@@ -1,4 +1,58 @@
 body {
-    background: #000000 ;
-    color: red;
+    background:#1e1e1e; 
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+button {
+    background: gray;
+    border:none;
+    color: honeydew;
+    border-radius: 25px;
+}
+header {
+    background: black;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+section {
+    background: white;
+    color: teal;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+div {
+    background: blueviolet;
+    color: cornsilk;
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    margin: auto;
+}
+footer {
+    background: black;
+    padding: 10px 20px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+    margin-right: 15px;
+}
+header .logo a {
+    background-image: url("images/NEXUS.png");
+    background-size: 50px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 60px;
+    width: 60px;
+    text-indent: -999999999px;
 }
