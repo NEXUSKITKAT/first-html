@@ -1,5 +1,7 @@
 body {
     background:#1e1e1e; 
+    background-image: url(images/gradiente.jpg);
+    background-position: center;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
@@ -13,10 +15,12 @@ button {
 }
 header {
     background: black;
+    background-image: url(/images/mountain-no-sun.jpg);
+    background-position: center;
+    background-size: 100%;
     padding-top: 20px;
     padding-left: 20px;
     padding-bottom: 20px;
-    text-align: center;
 }
 section {
     background: white;
@@ -32,10 +36,12 @@ div {
     width: 100px;
     height: 20px;
     margin: auto;
+    text-align: center;
 }
 footer {
-    background: black;
+    background: rgba(0, 0, 0, 0.3);
     padding: 10px 20px;
+    text-align: right;
 }
 ul {
     margin: 0;
@@ -55,4 +61,10 @@ header .logo a {
     height: 60px;
     width: 60px;
     text-indent: -999999999px;
+}
+nav {
+    text-align: right;
+}
+h2 {
+    text-align: center;
 }
