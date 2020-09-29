@@ -71,3 +71,16 @@ nav {
 h2 {
     text-align: center;
 }
+
+@media screen and (max-width: 800px) {
+    .feauters {
+        background-color: coral;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .feauters {
+        background-color: coral;
+    }
+}
+
