@@ -73,14 +73,24 @@ h2 {
 }
 
 @media screen and (max-width: 800px) {
-    .feauters {
-        background-color: coral;
+    li {
+        display: inline-block;
+        margin-right: 90px;
+        margin-left: 10px;
+    }
+    div {
+        background: white;
+        color:black;
+        display: inline-block;
+        width: 100px;
+        height: 20px;
+        margin: auto;
+        text-align: center;
     }
 }
 
 @media screen and (max-width: 400px) {
-    .feauters {
-        background-color: coral;
-    }
+  
+ 
 }
 
