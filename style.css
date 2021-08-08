@@ -1,5 +1,4 @@
-body {
-    background: rgb(2,0,36);
+body {  
     background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 12%, rgba(0,212,255,1) 55%);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -25,7 +24,6 @@ header {
     background-attachment: scroll;
 }
 section {
-    background-color: rgba(255, 255, 255, 0.2);
     color: black;
     padding: 20px;
     display: flex;
@@ -79,8 +77,8 @@ h2 {
         margin-left: 10px;
     }
     div {
-        background: white;
-        color:black;
+        background: black;
+        color:white;
         display: inline-block;
         width: 100px;
         height: 20px;
@@ -89,7 +87,31 @@ h2 {
     }
 }
 
-@media screen and (max-width: 400px) {
- 
+@media screen and (max-width: 500px) { 
+    header{
+        height: auto;
+        background-position: top;
+    }
+    li{
+        display: block;
+        text-align: right;
+        height: 25px;
+        margin: 5%;
+    }
+    section{
+        display: block;
+        width: 100px;
+        height: 20px;
+        margin: auto;
+    }
+    div {
+        background: black;
+        color:white;
+        display: inline-block;
+        width: 100px;
+        height: 20px;
+        margin-top: 10px;
+        text-align: center;
+    }
 }
 
