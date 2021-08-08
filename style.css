@@ -5,6 +5,7 @@ body {
     margin: 0px;
     padding: 0px;
     background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
 }
 button {
     background: gray;
@@ -30,11 +31,11 @@ section {
     flex-direction: row;
 }
 div {
-    background: blueviolet;
-    color: cornsilk;
+    background: #282A36;
+    color: white;
+    width: 400px;
+    height: 200px;
     display: inline-block;
-    width: 100px;
-    height: 20px;
     margin: auto;
     text-align: center;
 }
@@ -70,19 +71,23 @@ h2 {
     text-align: center;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
     li {
         display: inline-block;
         margin-right: 90px;
         margin-left: 10px;
     }
+    section{
+        display: block;
+    }
     div {
-        background: black;
-        color:white;
         display: inline-block;
-        width: 100px;
-        height: 20px;
-        margin: auto;
+        background: #282A36;
+        color: white;
+        width: 800px;
+        height: 200px;
+        margin-top: 10px;
+        padding-top: 20px;
         text-align: center;
     }
 }
@@ -91,6 +96,7 @@ h2 {
     header{
         height: auto;
         background-position: top;
+        background-size: 600px;
     }
     li{
         display: block;
@@ -100,17 +106,16 @@ h2 {
     }
     section{
         display: block;
-        width: 100px;
-        height: 20px;
         margin: auto;
+        width: 50%;
     }
     div {
         background: black;
         color:white;
-        display: inline-block;
-        width: 100px;
-        height: 20px;
+        width: 200px;
+        height: 200px;
         margin-top: 10px;
+        padding-top: 20px;
         text-align: center;
     }
 }
