@@ -61,6 +61,15 @@ li {
     display: inline-block;
     margin-right: 15px;
 }
+li:hover, li:focus li:focus{
+   background-color: #0A34B4;
+}
+li:link{
+    color: white;
+}
+li:active {
+    color: white;
+}
 
 header .logo a {
     background-image: url("img/NEXUS.png");
@@ -78,6 +87,10 @@ nav {
 h2 {
     text-align: center;
 }
+div:hover, div:focus div:focus{
+    transform: scale(1.1);
+    transition: transform .3s ease;
+ }
 
 @media screen and (max-width: 1400px) {
     body{
