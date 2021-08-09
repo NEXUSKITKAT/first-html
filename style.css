@@ -15,7 +15,7 @@ button {
 }
 header {
     background: #0F1015;
-    background-image: url(/images/mountain-no-sun.jpg);
+    background-image: url(/img/mountain-no-sun.jpg);
     background-position: center;
     background-size: 50%;
     background-repeat: no-repeat;
@@ -63,7 +63,7 @@ li {
 }
 
 header .logo a {
-    background-image: url("images/NEXUS.png");
+    background-image: url("img/NEXUS.png");
     background-size: 50px;
     display: inline-block;
     background-repeat: no-repeat;
