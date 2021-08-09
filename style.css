@@ -79,7 +79,7 @@ h2 {
     text-align: center;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
     body{
         position: relative;
     }
@@ -95,10 +95,16 @@ h2 {
         display: inline-block;
         background: #282A36;
         color: white;
-        width: 800px;
+        width: 95%;
         height: 200px;
         margin-top: 10px;
         text-align: center;
+    }
+    footer {
+        background: rgba(0, 0, 0, 0.2);
+        padding: 5px 5px;
+        position: absolute;
+        bottom: 0;
     }
 }
 
@@ -118,12 +124,11 @@ h2 {
     section{
         display: block;
         margin: auto;
-        width: 50%;
     }
     div {
         background: black;
         color:white;
-        width: 200px;
+        width: 87%;
         height: 200px;
         margin-top: 10px;
         padding-top: 20px;
