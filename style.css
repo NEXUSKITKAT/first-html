@@ -14,7 +14,7 @@ button {
     border-radius: 25px;
 }
 header {
-    background: #0f1015;
+    background: #0F1015;
     background-image: url(/images/mountain-no-sun.jpg);
     background-position: center;
     background-size: 50%;
@@ -23,6 +23,8 @@ header {
     padding-left: 20px;
     padding-bottom: 20px;
     background-attachment: scroll;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 section {
     color: black;
@@ -38,12 +40,13 @@ div {
     display: inline-block;
     margin: auto;
     text-align: center;
+    border-radius: 15px;
 }
 footer {
     background: rgba(0, 0, 0, 0.2);
     padding: 5px 5px;
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
 }
 ul {
     margin: 0;
@@ -51,9 +54,13 @@ ul {
     list-style-type: none;
 }
 li {
+    background: #282A36;
+    border-radius: 40px;
+    padding: 10px;
     display: inline-block;
     margin-right: 15px;
 }
+
 header .logo a {
     background-image: url("images/NEXUS.png");
     background-size: 50px;
@@ -93,6 +100,9 @@ h2 {
 }
 
 @media screen and (max-width: 500px) { 
+    body{
+        position: relative;
+    }
     header{
         height: auto;
         background-position: top;
@@ -103,6 +113,7 @@ h2 {
         text-align: right;
         height: 25px;
         margin: 5%;
+        text-align: center;
     }
     section{
         display: block;
