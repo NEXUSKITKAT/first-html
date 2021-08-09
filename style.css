@@ -43,6 +43,10 @@ div {
     border-radius: 15px;
     padding: 20px;
 }
+div:hover, div:focus div:focus{
+    transform: scale(1.1);
+    transition: transform .3s ease;
+}
 footer {
     background: rgba(0, 0, 0, 0.2);
     padding: 5px 5px;
@@ -64,13 +68,19 @@ li {
 li:hover, li:focus li:focus{
    background-color: #0A34B4;
 }
-li:link{
-    color: white;
+a.nav{
+    color: cornsilk;
+    text-decoration: none;
 }
-li:active {
-    color: white;
+a.nav:visited {
+    color: gray;
 }
-
+a{
+    color: #5865F2;
+}
+a:visited {
+    color: #6577E6;
+}
 header .logo a {
     background-image: url("img/NEXUS.png");
     background-size: 50px;
@@ -87,10 +97,6 @@ nav {
 h2 {
     text-align: center;
 }
-div:hover, div:focus div:focus{
-    transform: scale(1.1);
-    transition: transform .3s ease;
- }
 
 @media screen and (max-width: 1400px) {
     body{
@@ -112,6 +118,9 @@ div:hover, div:focus div:focus{
         height: 200px;
         margin-top: 10px;
         text-align: center;
+    }
+    div:hover, div:focus div:focus{
+        transform: scale(1);
     }
     footer {
         background: rgba(0, 0, 0, 0.2);
