@@ -7,7 +7,7 @@ body {
     background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
 }
-button {
+li {
     background: gray;
     border:none;
     color: honeydew;
@@ -59,13 +59,14 @@ ul {
     list-style-type: none;
 }
 li {
+    font-family : Arial;
     background: #282A36;
-    border-radius: 40px;
+    border-radius: 10px;
     padding: 10px;
     display: inline-block;
     margin-right: 15px;
 }
-li:hover, li:focus li:focus{
+li:hover, li:focus{
    background-color: #0A34B4;
 }
 a.nav{
@@ -142,6 +143,7 @@ h2 {
         height: 25px;
         margin: 5%;
         text-align: center;
+        border-radius: 30px;
     }
     section{
         display: block;
