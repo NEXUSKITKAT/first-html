@@ -19,9 +19,7 @@ header {
     background-position: center;
     background-size: 50%;
     background-repeat: no-repeat;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
     background-attachment: scroll;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -29,6 +27,7 @@ header {
 section {
     color: black;
     padding: 20px;
+    margin: 0px;
     display: flex;
     flex-direction: row;
 }
@@ -61,7 +60,7 @@ ul {
 li {
     font-family : Arial;
     background: #282A36;
-    border-radius: 10px;
+    border-radius: 30px;
     padding: 10px;
     display: inline-block;
     margin-right: 15px;
@@ -131,7 +130,7 @@ h2 {
     }
 }
 
-@media screen and (max-width: 500px) { 
+@media screen and (max-width: 600px) { 
     header{
         height: auto;
         background-position: top;
@@ -147,12 +146,12 @@ h2 {
     }
     section{
         display: block;
-        margin: auto;
+        padding-right: 10%;
+        padding-left: 10%;
     }
     div {
         background: black;
         color:white;
-        width: 87%;
         height: 200px;
         margin-top: 10px;
         padding-top: 20px;
