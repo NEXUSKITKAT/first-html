@@ -29,8 +29,8 @@ section {
     padding: 20px;
     margin: 0px;
     display: flex;
-    
     flex-wrap: wrap;
+    width: 90%;
 }
 div {
     background: #282A36;
@@ -189,8 +189,8 @@ h2 {
     }
     section{
         display: block;
-        padding-right: 10%;
-        padding-left: 10%;
+        padding-right: 23px;
+        padding-left: 10px;
     }
     div {
         background: black;
