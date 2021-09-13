@@ -58,6 +58,7 @@ div {
     text-align: center;
     border-radius: 15px;
     padding: 20px 50px 200px;
+    transition-duration: 0.4s;
 }
 div.dragon {
     background: #282A36;
@@ -73,6 +74,8 @@ div.dragon {
 }
 div:hover, div:focus div:focus{
     transform: scale(1.1);
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
 }
 footer {
     background: rgba(0, 0, 0, 0.2);
@@ -96,10 +99,10 @@ button {
     display: inline-block;
     margin-right: 15px;
     text-align: center;
-    transition-duration: 0.4s;
 }
 button:hover, button:focus{
    background-color: #0A34B4;
+   transition-duration: 0.4s;
 }
 a.nav{
     color: cornsilk;
