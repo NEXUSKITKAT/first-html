@@ -101,8 +101,8 @@ button {
 	text-align: center;
 }
 button:hover, button:focus{
-   background-color: #0A34B4;
-   transition-duration: 0.4s;
+	background-color: #0A34B4;
+	transition-duration: 0.4s;
 }
 a.nav{
 	color: cornsilk;
