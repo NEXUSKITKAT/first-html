@@ -11,7 +11,7 @@ body {
 }
 header {
 	background: #0F1015;
-	background-image: url(/img/mountain-no-sun.jpg);
+	background-image: url(img/mountain-no-sun.jpg);
 	background-position: center;
 	background-size: 50%;
 	background-repeat: no-repeat;
@@ -167,7 +167,7 @@ h2 {
 	footer {
 		background: rgba(0, 0, 0, 0.2);
 		padding: 5px 5px;
-		position: absolute;
+		position: relative;
 		bottom: 0;
 	}
 }
