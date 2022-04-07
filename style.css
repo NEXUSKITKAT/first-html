@@ -5,7 +5,6 @@ body {
 	margin: 0;
 	padding: 0;
 	background-attachment: fixed;
-	font-family: Arial, Helvetica, sans-serif;
 	height: auto;
 	width: auto;
 }
@@ -28,16 +27,7 @@ video {
 	max-width: 100%;
 	max-height: 100%;
 }
-section.F {
-	text-align:center;
-	font-size: 100px;
-	display: block;
-	height:100%;
-	width:100%;
-	padding: 60px;
-	padding-left: 120px;
-	box-sizing:border-box
-}
+
 section {
 	color: black;
 	padding: 20px;
@@ -57,10 +47,9 @@ div {
 	background: #282A36;
 	color: white;
 	display: inline-block;
-	margin: auto;
+	margin: 25px;
 	text-align: center;
 	border-radius: 15px;
-	padding: 20px 50px 200px;
 	transition-duration: 0.4s;
 }
 .row {
@@ -68,7 +57,6 @@ div {
 }
 .col {
 	flex: 1;
-	
 	padding: 1em;
 	border: solid;
 }
@@ -82,7 +70,6 @@ div.dragon {
 	margin-left: 6%;
 	text-align: center;
 	border-radius: 15px;
-	padding: 20px;
 }
 div:hover, div:focus div:focus{
 	transform: scale(1.1);
@@ -103,11 +90,10 @@ button {
 	background: gray;
 	border:none;
 	color: honeydew;
-	border-radius: 25px;
-	font-family : Arial;
+
 	background: #282A36;
 	border-radius: 30px;
-	padding: 10px;
+	padding: 1em;
 	display: inline-block;
 	margin-right: 15px;
 	text-align: center;
@@ -174,7 +160,6 @@ h2 {
 		margin-left: 12%;
 		text-align: center;
 		border-radius: 15px;
-		padding: 20px;
 		flex-basis: 100%; 
 	}
 	footer {
@@ -195,15 +180,11 @@ h2 {
 		margin-left: 6%;
 		text-align: center;
 		border-radius: 15px;
-		padding: 20px;
 		flex-basis: 100%; 
 	}
 }
 
 @media screen and (max-width: 800px) {
-	body{
-		position: relative;
-	}
 	header{
 		height: auto;
 		width: auto;
@@ -226,19 +207,15 @@ h2 {
 		padding: 2px 100px;
 	}
 	section{
-		display: flex;
-		flex-direction: column;
-		margin-right: auto;
-		margin-left: auto;
-		
+		justify-content: center;
 	}
+
 	div {
 		width: 70%;
 		background: black;
 		color:white;
 		height: 200px;
 		margin-top: 10px;
-		padding-top: 20px;
 		text-align: center;
 	}
 }
