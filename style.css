@@ -63,6 +63,15 @@ div {
 	padding: 20px 50px 200px;
 	transition-duration: 0.4s;
 }
+.row {
+	display: flex;
+}
+.col {
+	flex: 1;
+	
+	padding: 1em;
+	border: solid;
+}
 div.dragon {
 	background: #282A36;
 	color: white;
